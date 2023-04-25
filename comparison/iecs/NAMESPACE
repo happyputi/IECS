@@ -1,0 +1,8 @@
+export("chisquare", "excludesamples", "extractpattern", "iecs",
+       "judgecompatible", "necessaryconditions", "qcacalculation")
+import("purrr",except=simplify)
+import("plyr",except=compact)
+import("QCA")
+import("admisc",except=negate)
+importFrom("stats", "chisq.test")
+importFrom("utils", "read.csv", "write.table")
