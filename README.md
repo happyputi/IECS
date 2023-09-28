@@ -8,10 +8,12 @@ diseases.
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Features](#features)
-* [Usage](#usage)
-* [Contact](#contact)
+- [Project Name](#project-name)
+  - [Table of Contents](#table-of-contents)
+  - [General Information](#general-information)
+  - [Features](#features)
+  - [Usage](#usage)
+  - [Contact](#contact)
 
 ## General Information
 - IECS workflow is for multi-SNP analysis in complex
@@ -39,4 +41,4 @@ Provide various use cases and code examples here.
 
 
 ## Contact
-Created by [@gaojun](gaojun@mail.hzau.edu.cn) - feel free to contact me!
+Created by [@gaojun](gaojun@mail.hzau.edu.cn)  and [@xu wei](eric_xu@webmail.hzau.edu.cn)- feel free to contact us!
