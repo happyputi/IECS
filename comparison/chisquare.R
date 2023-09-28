@@ -7,7 +7,7 @@ for(i in 1:length(splitsamples)) {if(judgecompatible(pattern,splitsamples[[i]]))
 else{patternresult<-c(patternresult,0)}}  # check whether the sample is compatible with the pattern
 patternresultvec<-unlist(patternresult)  # transform pattern result to vector
 sickenresult<-samples[[length(samples)]]  # define the sicken result
-chisqtest<-try(chisq.test(patternresultvec,sickenresult)) # Pearson's Chi-squared test with samplesates' continuitsamples correction
+chisqtest<-try(chisq.test(patternresultvec,sickenresult)) # Pearson's Chi-squared test with Yates's continuity correction
 if("try-error" %in% class(chisqtest)){return("NA")
 }else{
 exp<-chisqtest$expected
